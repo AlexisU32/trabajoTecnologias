@@ -1,5 +1,8 @@
 import math
 
+from datetime import date
+from datetime import datetime
+
 #print('1) Calcular el area de un triangulo ')
 #b = input('Ingrese la base ')
 #a = input('Ingrese la Altura ')
@@ -89,7 +92,20 @@ import math
 
 # ---------------------------------------------------------------------------------------------------------- 
 
-print('9) Meses transcurridos')
+print('10) Promedio de un alumno')
+
+nota1 = float(input("Ingrese la nota de Español "))
+nota2 = float(input("Ingrese la nora de Matematicas "))
+nota3 = float(input("Ingrese la nota de Economia "))
+nota4 = float(input("Ingrese la nota de Programacion "))
+nota5 = float(input("Ingrese la nota de Ingles \n"))
+
+promedio = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
+
+print("El promedio de las notas del alumno es de " + str(float(promedio)) + " ")
+
+
+
 
 
 
